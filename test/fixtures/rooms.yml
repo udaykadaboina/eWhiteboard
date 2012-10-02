@@ -1,0 +1,37 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  room_number: MyString
+  patient_first: MyString
+  patient_last: MyString
+  attending: MyString
+  nurse: MyString
+  dilation: MyString
+  effacement: MyString
+  station: MyString
+  last_exam: 2012-09-16 12:39:47
+  membrane: MyString
+  gest_age: 9.99
+  gravidity: MyString
+  parity: MyString
+  group_b_strep: MyString
+  blood_type: MyString
+  comments: MyText
+
+two:
+  room_number: MyString
+  patient_first: MyString
+  patient_last: MyString
+  attending: MyString
+  nurse: MyString
+  dilation: MyString
+  effacement: MyString
+  station: MyString
+  last_exam: 2012-09-16 12:39:47
+  membrane: MyString
+  gest_age: 9.99
+  gravidity: MyString
+  parity: MyString
+  group_b_strep: MyString
+  blood_type: MyString
+  comments: MyText

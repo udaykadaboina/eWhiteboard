@@ -1,0 +1,85 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Room number:</b>
+  <%= @room.room_number %>
+</p>
+
+<p>
+  <b>Patient first:</b>
+  <%= @room.patient_first %>
+</p>
+
+<p>
+  <b>Patient last:</b>
+  <%= @room.patient_last %>
+</p>
+
+<p>
+  <b>Attending:</b>
+  <%= @room.attending %>
+</p>
+
+<p>
+  <b>Nurse:</b>
+  <%= @room.nurse %>
+</p>
+
+<p>
+  <b>Dilation:</b>
+  <%= @room.dilation %>
+</p>
+
+<p>
+  <b>Effacement:</b>
+  <%= @room.effacement %>
+</p>
+
+<p>
+  <b>Station:</b>
+  <%= @room.station %>
+</p>
+
+<p>
+  <b>Last exam:</b>
+  <%= @room.last_exam %>
+</p>
+
+<p>
+  <b>Membrane:</b>
+  <%= @room.membrane %>
+</p>
+
+<p>
+  <b>Gest age:</b>
+  <%= @room.gest_age %>
+</p>
+
+<p>
+  <b>Gravidity:</b>
+  <%= @room.gravidity %>
+</p>
+
+<p>
+  <b>Parity:</b>
+  <%= @room.parity %>
+</p>
+
+<p>
+  <b>Group b strep:</b>
+  <%= @room.group_b_strep %>
+</p>
+
+<p>
+  <b>Blood type:</b>
+  <%= @room.blood_type %>
+</p>
+
+<p>
+  <b>Comments:</b>
+  <%= @room.comments %>
+</p>
+
+
+<%= link_to 'Edit', edit_room_path(@room) %> |
+<%= link_to 'Back', rooms_path %>

@@ -1,0 +1,66 @@
+// Place all the styles related to the Patients controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+form li span {
+    color: #444444;
+    float: left;
+    margin: 0 4px 0 0;
+    padding: 0 0 8px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+form li {
+    display: block;
+    margin: 0;
+    padding: 4px 5px 2px 9px;
+    position: relative;
+}
+
+    form li:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+
+}
+
+/*
+table tr th {
+    color: #fff;
+    background-color: #8484f0;
+}
+
+table tr td {
+	background-color: #c8c8f0;
+    padding: 0px 5px;
+}
+*/
+
+.purr {
+  position: fixed;
+  top: 30px;
+  right: 100px;
+  width: 250px;
+  padding: 20px;
+  background-color: #FCC;
+  border: solid 2px #C66;
+  &:first-letter { text-transform: uppercase; }
+}
+
+table tr:nth-child(odd)   { background-color:#DDDDDD; }
+table tr:nth-child(even)    { background-color:#EEEEEE; }
+
+table tr th { 
+    padding: 0px 10px;
+}
+
+table th { color:#FFFFFF; background-color:#0000DD; }
+
+table tr td { 
+    padding: 0px 5px;
+}

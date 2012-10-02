@@ -1,0 +1,81 @@
+<%= form_for(@room) do |f| %>
+  <% if @room.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@room.errors.count, "error") %> prohibited this room from being saved:</h2>
+
+      <ul>
+      <% @room.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :room_number %><br />
+    <%= f.text_field :room_number %>
+  </div>
+  <div class="field">
+    <%= f.label :patient_first %><br />
+    <%= f.text_field :patient_first %>
+  </div>
+  <div class="field">
+    <%= f.label :patient_last %><br />
+    <%= f.text_field :patient_last %>
+  </div>
+  <div class="field">
+    <%= f.label :attending %><br />
+     <%= f.select :attending, Room::attendings, {:include_blank => true} %>
+  </div>
+  <div class="field">
+    <%= f.label :nurse %><br />
+    <%= f.select :nurse, Room::nurses, {:include_blank => true} %>
+  </div>
+  <div class="field">
+    <%= f.label :dilation %><br />
+    <%= f.select :dilation, Room::dilations, {:include_blank => true} %>
+  </div>
+  <div class="field">
+    <%= f.label :effacement %><br />
+    <%= f.select :effacement, Room::effacements, {:include_blank => true} %>
+  </div>
+  <div class="field">
+    <%= f.label :station %><br />
+    <%= f.select :station, Room::stations, {:include_blank => true} %>
+  </div>
+  <div class="field">
+    <%= f.label :last_exam %><br />
+    <%= f.datetime_select :last_exam %>
+  </div>
+  <div class="field">
+    <%= f.label :membrane %><br />
+    <%= f.select :membrane, Room::membranes, {:include_blank => true} %>
+  </div>
+  <div class="field">
+    <%= f.label :gest_age %><br />
+    <%= f.text_field :gest_age %>
+  </div>
+  <div class="field">
+    <%= f.label :gravidity %><br />
+    <%= f.select :gravidity, Room::gravidities, {:include_blank => true} %>
+  </div>
+  <div class="field">
+    <%= f.label :parity %><br />
+    <%= f.select :parity, Room::parities, {:include_blank => true} %>
+  </div>
+  <div class="field">
+    <%= f.label :group_b_strep %><br />
+    <%= f.select :group_b_strep, Room::group_b_streps, {:include_blank => true} %>
+  </div>
+  <div class="field">
+    <%= f.label :blood_type %><br />
+    <%= f.select :blood_type, Room::blood_types, {:include_blank => true} %>
+  </div>
+  <div class="field">
+    <%= f.label :comments %><br />
+    <%= f.text_area :comments %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

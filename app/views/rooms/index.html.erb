@@ -1,0 +1,53 @@
+<h1>Listing rooms</h1>
+
+<table>
+  <tr>
+    <th>Room number</th>
+    <th>Patient first</th>
+    <th>Patient last</th>
+    <th>Attending</th>
+    <th>Nurse</th>
+    <th>Dilation</th>
+    <th>Effacement</th>
+    <th>Station</th>
+    <th>Last exam</th>
+    <th>Membrane</th>
+    <th>Gest age</th>
+    <th>Gravidity</th>
+    <th>Parity</th>
+    <th>Group b strep</th>
+    <th>Blood type</th>
+    <th>Comments</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @rooms.each do |room| %>
+  <tr>
+    <td><%= best_in_place room, :room_number, :nil => "---" %></td>
+    <td><%= best_in_place room, :patient_first, :nil => "---" %></td>
+    <td><%= best_in_place room, :patient_last, :nil => "---" %></td>
+    <td><%= best_in_place room, :attending, type: :select, :collection => Room::attendings, :nil => "---" %></td>
+    <td><%= best_in_place room, :nurse, type: :select, :collection => Room::nurses,:nil => "---", display_as: :nurse %></td>
+    <td><%= best_in_place room, :dilation, type: :select, :collection => Room::dilations, :nil => "---", display_as: :dilation %></td>
+    <td><%= best_in_place room, :effacement, type: :select, :collection => Room::effacements, :nil => "---" %></td>
+    <td><%= best_in_place room, :station, type: :select, :collection => Room::stations, :nil => "---" %></td>
+    <td><%= best_in_place room, :last_exam, :nil => "---" %></td>
+    <td><%= best_in_place room, :membrane,type: :select, :collection => Room::membranes %></td>
+    <td><%= best_in_place room, :gest_age, :nil => "---" %></td>
+    <td><%= best_in_place room, :gravidity, type: :select, :collection => Room::gravidities, :nil => "---" %></td>
+    <td><%= best_in_place room, :parity, type: :select, :collection => Room::parities, :nil => "---" %></td>
+    <td><%= best_in_place room, :group_b_strep, type: :select, :collection => Room::group_b_streps,:nil => "---" %></td>
+    <td><%= best_in_place room, :blood_type,type: :select, :collection =>  Room::blood_types, :nil => "---" %></td>
+    <td><%= best_in_place room, :comments, :nil => "---" %></td>
+    <td><%= link_to 'Show', room %></td>
+    <td><%= link_to 'Edit', edit_room_path(room) %></td>
+    <td><%= link_to 'Destroy', room, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Room', new_room_path %>
