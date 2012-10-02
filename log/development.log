@@ -3642,3 +3642,1294 @@ Served asset /rooms.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 14:42:56 -0600
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-02 15:05:25 -0600
+Connecting to database specified by database.yml
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" [0m
+  Rendered rooms/index.html.erb within layouts/application (154.0ms)
+Completed 200 OK in 587ms (Views: 247.0ms | ActiveRecord: 27.0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 15:05:29 -0600
+Served asset /rooms.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 15:05:29 -0600
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 15:05:29 -0600
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 15:05:29 -0600
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 15:05:29 -0600
+Served asset /jquery.purr.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 15:05:29 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 15:05:29 -0600
+Served asset /best_in_place.js - 304 Not Modified (32ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 15:05:29 -0600
+Served asset /rooms.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 15:05:29 -0600
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-02 15:05:34 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"effacement"=>"10"}, "authenticity_token"=>"1g8IOnECDwFXWBrLBy15c1ZEErlZEFNTj2M159NsKoc=", "id"=>"1"}
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  UPDATE "rooms" SET "effacement" = 10, "updated_at" = '2012-10-02 21:05:34.043798' WHERE "rooms"."id" = 1
+  [1m[36m (4.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 75ms (ActiveRecord: 5.0ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-02 15:05:35 -0600
+Processing by RoomsController#index as HTML
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" 
+  Rendered rooms/index.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 30ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 15:05:35 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 15:05:35 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 15:05:35 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 15:05:35 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 15:05:35 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 15:05:35 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 15:05:35 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 15:05:35 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 15:05:35 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-02 15:05:36 -0600
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" [0m
+  Rendered rooms/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 32ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 15:05:36 -0600
+Served asset /rooms.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 15:05:36 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 15:05:36 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 15:05:36 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 15:05:36 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 15:05:36 -0600
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 15:05:36 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 15:05:36 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 15:05:36 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-02 15:05:53 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"effacement"=>"60"}, "authenticity_token"=>"1g8IOnECDwFXWBrLBy15c1ZEErlZEFNTj2M159NsKoc=", "id"=>"1"}
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (2.0ms)[0m  UPDATE "rooms" SET "effacement" = 60, "updated_at" = '2012-10-02 21:05:53.855931' WHERE "rooms"."id" = 1
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 11ms (ActiveRecord: 7.0ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-02 15:05:55 -0600
+Processing by RoomsController#index as HTML
+  [1m[35mRoom Load (1.0ms)[0m  SELECT "rooms".* FROM "rooms" 
+  Rendered rooms/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 29ms (Views: 28.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 15:05:55 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 15:05:55 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 15:05:55 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 15:05:55 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 15:05:55 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 15:05:55 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 15:05:55 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 15:05:55 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 15:05:55 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started PUT "/rooms/2" for 127.0.0.1 at 2012-10-02 15:06:11 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"room_number"=>"LD&2"}, "authenticity_token"=>"1g8IOnECDwFXWBrLBy15c1ZEErlZEFNTj2M159NsKoc=", "id"=>"2"}
+  [1m[36mRoom Load (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/rooms/new" for 127.0.0.1 at 2012-10-02 15:10:17 -0600
+Processing by RoomsController#new as HTML
+  Rendered rooms/_form.html.erb (44.0ms)
+  Rendered rooms/new.html.erb within layouts/application (112.0ms)
+Completed 200 OK in 128ms (Views: 127.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 15:10:17 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 15:10:17 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 15:10:17 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 15:10:17 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 15:10:17 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 15:10:17 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 15:10:17 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 15:10:18 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 15:10:18 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rooms" for 127.0.0.1 at 2012-10-02 15:10:43 -0600
+Processing by RoomsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1g8IOnECDwFXWBrLBy15c1ZEErlZEFNTj2M159NsKoc=", "room"=>{"room_number"=>"LD&3", "patient_first"=>"britney", "patient_last"=>"", "attending"=>"G. Kelly", "nurse"=>"M. Smith", "dilation"=>"2", "effacement"=>"20", "station"=>"-2", "last_exam(1i)"=>"2012", "last_exam(2i)"=>"10", "last_exam(3i)"=>"2", "last_exam(4i)"=>"21", "last_exam(5i)"=>"10", "membrane"=>"", "gest_age"=>"", "gravidity"=>"", "parity"=>"", "group_b_strep"=>"", "blood_type"=>"", "comments"=>""}, "commit"=>"Create Room"}
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", "G. Kelly"], ["blood_type", ""], ["comments", ""], ["created_at", Tue, 02 Oct 2012 21:10:43 UTC +00:00], ["dilation", 2], ["effacement", 20], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", ""], ["last_exam", Tue, 02 Oct 2012 21:10:00 UTC +00:00], ["membrane", ""], ["nurse", "M. Smith"], ["parity", nil], ["patient_first", "britney"], ["patient_last", ""], ["room_number", "LD&3"], ["station", "-2"], ["updated_at", Tue, 02 Oct 2012 21:10:43 UTC +00:00]]
+  [1m[35m (4.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/rooms/3
+Completed 302 Found in 10ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/rooms/3" for 127.0.0.1 at 2012-10-02 15:10:43 -0600
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRoom Load (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  Rendered rooms/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 15:10:44 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 15:10:44 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 15:10:44 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 15:10:44 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 15:10:44 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 15:10:44 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 15:10:44 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 15:10:44 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 15:10:44 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-02 15:10:45 -0600
+Processing by RoomsController#index as HTML
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" 
+  Rendered rooms/index.html.erb within layouts/application (75.0ms)
+Completed 200 OK in 90ms (Views: 88.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 15:10:45 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 15:10:45 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 15:10:45 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 15:10:46 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 15:10:46 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 15:10:46 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 15:10:46 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 15:10:46 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 15:10:46 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started PUT "/rooms/3" for 127.0.0.1 at 2012-10-02 15:11:08 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"gest_age"=>""}, "authenticity_token"=>"1g8IOnECDwFXWBrLBy15c1ZEErlZEFNTj2M159NsKoc=", "id"=>"3"}
+  [1m[36mRoom Load (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 3ms (ActiveRecord: 0.0ms)
+
+
+Started PUT "/rooms/3" for 127.0.0.1 at 2012-10-02 15:11:11 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"membrane"=>"Postpart"}, "authenticity_token"=>"1g8IOnECDwFXWBrLBy15c1ZEErlZEFNTj2M159NsKoc=", "id"=>"3"}
+  [1m[35mRoom Load (1.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  UPDATE "rooms" SET "membrane" = 'Postpart', "updated_at" = '2012-10-02 21:11:11.721112' WHERE "rooms"."id" = 3
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 10ms (ActiveRecord: 8.0ms)
+
+
+Started PUT "/rooms/3" for 127.0.0.1 at 2012-10-02 15:11:14 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"gravidity"=>"7"}, "authenticity_token"=>"1g8IOnECDwFXWBrLBy15c1ZEErlZEFNTj2M159NsKoc=", "id"=>"3"}
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  UPDATE "rooms" SET "gravidity" = 7, "updated_at" = '2012-10-02 21:11:15.003299' WHERE "rooms"."id" = 3
+  [1m[36m (9.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 14ms (ActiveRecord: 10.0ms)
+
+
+Started PUT "/rooms/3" for 127.0.0.1 at 2012-10-02 15:11:18 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"parity"=>"0"}, "authenticity_token"=>"1g8IOnECDwFXWBrLBy15c1ZEErlZEFNTj2M159NsKoc=", "id"=>"3"}
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (2.0ms)[0m  UPDATE "rooms" SET "parity" = 0, "updated_at" = '2012-10-02 21:11:18.961526' WHERE "rooms"."id" = 3
+  [1m[36m (7.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 14ms (ActiveRecord: 9.0ms)
+
+
+Started PUT "/rooms/3" for 127.0.0.1 at 2012-10-02 15:11:20 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"group_b_strep"=>"Positive"}, "authenticity_token"=>"1g8IOnECDwFXWBrLBy15c1ZEErlZEFNTj2M159NsKoc=", "id"=>"3"}
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  UPDATE "rooms" SET "group_b_strep" = 'Positive', "updated_at" = '2012-10-02 21:11:20.988642' WHERE "rooms"."id" = 3
+  [1m[36m (8.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 13ms (ActiveRecord: 9.0ms)
+
+
+Started PUT "/rooms/3" for 127.0.0.1 at 2012-10-02 15:11:23 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"blood_type"=>"O+"}, "authenticity_token"=>"1g8IOnECDwFXWBrLBy15c1ZEErlZEFNTj2M159NsKoc=", "id"=>"3"}
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (2.0ms)[0m  UPDATE "rooms" SET "blood_type" = 'O+', "updated_at" = '2012-10-02 21:11:23.796802' WHERE "rooms"."id" = 3
+  [1m[36m (7.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 13ms (ActiveRecord: 9.0ms)
+
+
+Started PUT "/rooms/3" for 127.0.0.1 at 2012-10-02 15:11:27 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"comments"=>"hello lady"}, "authenticity_token"=>"1g8IOnECDwFXWBrLBy15c1ZEErlZEFNTj2M159NsKoc=", "id"=>"3"}
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (2.0ms)[0m  UPDATE "rooms" SET "comments" = 'hello lady', "updated_at" = '2012-10-02 21:11:27.750028' WHERE "rooms"."id" = 3
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 12ms (ActiveRecord: 9.0ms)
+
+
+Started PUT "/rooms/3" for 127.0.0.1 at 2012-10-02 15:11:34 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"gest_age"=>"09.9"}, "authenticity_token"=>"1g8IOnECDwFXWBrLBy15c1ZEErlZEFNTj2M159NsKoc=", "id"=>"3"}
+  [1m[35mRoom Load (1.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  UPDATE "rooms" SET "gest_age" = 9.9, "updated_at" = '2012-10-02 21:11:34.817433' WHERE "rooms"."id" = 3
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 12ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-02 15:11:36 -0600
+Processing by RoomsController#index as HTML
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" 
+  Rendered rooms/index.html.erb within layouts/application (31.0ms)
+Completed 200 OK in 47ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 15:11:36 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 15:11:36 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:36 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:36 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 15:11:36 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:36 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:36 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:36 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:36 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-02 15:11:38 -0600
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (1.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" [0m
+  Rendered rooms/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:38 -0600
+Served asset /jquery.purr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:38 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 15:11:38 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 15:11:38 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 15:11:38 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:38 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:38 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:38 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:38 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-02 15:11:40 -0600
+Processing by RoomsController#index as HTML
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" 
+  Rendered rooms/index.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 47ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 15:11:40 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:40 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 15:11:40 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:40 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:40 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 15:11:40 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:40 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:40 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:40 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started PUT "/rooms/3" for 127.0.0.1 at 2012-10-02 15:11:46 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"patient_last"=>"junk"}, "authenticity_token"=>"1g8IOnECDwFXWBrLBy15c1ZEErlZEFNTj2M159NsKoc=", "id"=>"3"}
+  [1m[36mRoom Load (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mUPDATE "rooms" SET "patient_last" = 'junk', "updated_at" = '2012-10-02 21:11:46.770116' WHERE "rooms"."id" = 3[0m
+  [1m[35m (6.0ms)[0m  commit transaction
+Completed 204 No Content in 12ms (ActiveRecord: 7.0ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-02 15:11:47 -0600
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (3.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" [0m
+  Rendered rooms/index.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 43ms (Views: 39.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:47 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 15:11:47 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:47 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:47 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 15:11:47 -0600
+Served asset /rooms.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 15:11:47 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:47 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:47 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:47 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-02 15:11:48 -0600
+Processing by RoomsController#index as HTML
+  [1m[35mRoom Load (1.0ms)[0m  SELECT "rooms".* FROM "rooms" 
+  Rendered rooms/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:48 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:48 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:48 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 15:11:48 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 15:11:48 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 15:11:48 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:48 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:48 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 15:11:48 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-02 15:17:29 -0600
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (1.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" [0m
+  Rendered rooms/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 44ms (Views: 41.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 15:17:29 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 15:17:29 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 15:17:29 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 15:17:29 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 15:17:29 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 15:17:29 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 15:17:29 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 15:17:29 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 15:17:29 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-02 15:17:29 -0600
+Served asset /unmh_logo.gif - 200 OK (74ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-02 15:17:46 -0600
+Processing by RoomsController#index as HTML
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" 
+  Rendered rooms/index.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 48ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 15:17:46 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 15:17:46 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 15:17:46 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 15:17:46 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 15:17:46 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 15:17:46 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 15:17:46 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 15:17:46 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 15:17:46 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-02 15:17:46 -0600
+Served asset /unmh_logo.gif - 304 Not Modified (0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-02 15:22:34 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"dilation"=>"4"}, "authenticity_token"=>"1g8IOnECDwFXWBrLBy15c1ZEErlZEFNTj2M159NsKoc=", "id"=>"1"}
+  [1m[36mRoom Load (1.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mUPDATE "rooms" SET "dilation" = 4, "updated_at" = '2012-10-02 21:22:34.211148' WHERE "rooms"."id" = 1[0m
+  [1m[35m (4.0ms)[0m  commit transaction
+Completed 204 No Content in 8ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-02 15:22:35 -0600
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" [0m
+  Rendered rooms/index.html.erb within layouts/application (46.0ms)
+Completed 200 OK in 68ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 15:22:35 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 15:22:35 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 15:22:35 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 15:22:35 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 15:22:35 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 15:22:35 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 15:22:35 -0600
+Served asset /best_in_place.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 15:22:35 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 15:22:35 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-02 15:22:35 -0600
+Served asset /unmh_logo.gif - 304 Not Modified (0ms)
+
+
+Started PUT "/rooms/3" for 127.0.0.1 at 2012-10-02 15:22:41 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"station"=>"0"}, "authenticity_token"=>"1g8IOnECDwFXWBrLBy15c1ZEErlZEFNTj2M159NsKoc=", "id"=>"3"}
+  [1m[35mRoom Load (1.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (2.0ms)[0m  UPDATE "rooms" SET "station" = '0', "updated_at" = '2012-10-02 21:22:42.004594' WHERE "rooms"."id" = 3
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 12ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-02 15:22:43 -0600
+Processing by RoomsController#index as HTML
+  [1m[35mRoom Load (1.0ms)[0m  SELECT "rooms".* FROM "rooms" 
+  Rendered rooms/index.html.erb within layouts/application (32.0ms)
+Completed 200 OK in 51ms (Views: 49.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 15:22:43 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 15:22:43 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 15:22:43 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 15:22:43 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 15:22:43 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 15:22:43 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 15:22:43 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 15:22:43 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 15:22:43 -0600
+Served asset /rooms.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-02 15:22:43 -0600
+Served asset /unmh_logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-02 15:55:37 -0600
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (1.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" [0m
+  Rendered rooms/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 15:55:37 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 15:55:37 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 15:55:37 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 15:55:37 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 15:55:37 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 15:55:37 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 15:55:37 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 15:55:37 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 15:55:37 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-02 15:55:37 -0600
+Served asset /unmh_logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-02 15:56:21 -0600
+Processing by RoomsController#index as HTML
+  [1m[35mRoom Load (1.0ms)[0m  SELECT "rooms".* FROM "rooms" 
+  Rendered rooms/index.html.erb within layouts/application (69.0ms)
+Completed 200 OK in 89ms (Views: 86.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 15:56:21 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 15:56:21 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 15:56:21 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 15:56:21 -0600
+Served asset /jquery.purr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 15:56:21 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 15:56:21 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 15:56:21 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 15:56:22 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 15:56:22 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-02 15:56:22 -0600
+Served asset /unmh_logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-02 15:56:46 -0600
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" [0m
+  Rendered rooms/index.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 42ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 15:56:46 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 15:56:46 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 15:56:46 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 15:56:46 -0600
+Served asset /rooms.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 15:56:46 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 15:56:46 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 15:56:46 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 15:56:46 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 15:56:46 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-02 15:56:47 -0600
+Served asset /unmh_logo.gif - 304 Not Modified (0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-02 15:57:06 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"last_exam"=>"2012-09-27 23:40:00 UTC"}, "authenticity_token"=>"1g8IOnECDwFXWBrLBy15c1ZEErlZEFNTj2M159NsKoc=", "id"=>"1"}
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (2.0ms)[0m  UPDATE "rooms" SET "last_exam" = '2012-09-27 23:40:00.000000', "updated_at" = '2012-10-02 21:57:06.053926' WHERE "rooms"."id" = 1
+  [1m[36m (56.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 73ms (ActiveRecord: 59.0ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-02 15:59:02 -0600
+Processing by RoomsController#index as HTML
+  [1m[35mRoom Load (1.0ms)[0m  SELECT "rooms".* FROM "rooms" 
+  Rendered rooms/index.html.erb within layouts/application (43.0ms)
+Completed 200 OK in 65ms (Views: 63.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 15:59:02 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 15:59:02 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:02 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:02 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 15:59:02 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:02 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:02 -0600
+Served asset /best_in_place.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:02 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:02 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-02 15:59:02 -0600
+Served asset /unmh_logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-02 15:59:04 -0600
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" [0m
+  Rendered rooms/index.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 49ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:04 -0600
+Served asset /jquery.purr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 15:59:04 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 15:59:04 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:04 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:04 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 15:59:04 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:04 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:04 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:04 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-02 15:59:04 -0600
+Served asset /unmh_logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/rooms/new" for 127.0.0.1 at 2012-10-02 15:59:07 -0600
+Processing by RoomsController#new as HTML
+  Rendered rooms/_form.html.erb (59.0ms)
+  Rendered rooms/new.html.erb within layouts/application (61.0ms)
+Completed 200 OK in 79ms (Views: 78.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:07 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:07 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 15:59:07 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:07 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 15:59:07 -0600
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 15:59:07 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:07 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:07 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:07 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rooms" for 127.0.0.1 at 2012-10-02 15:59:16 -0600
+Processing by RoomsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1g8IOnECDwFXWBrLBy15c1ZEErlZEFNTj2M159NsKoc=", "room"=>{"room_number"=>"LD&4", "patient_first"=>"", "patient_last"=>"", "attending"=>"", "nurse"=>"", "dilation"=>"", "effacement"=>"", "station"=>"", "last_exam(1i)"=>"2012", "last_exam(2i)"=>"10", "last_exam(3i)"=>"2", "last_exam(4i)"=>"21", "last_exam(5i)"=>"59", "membrane"=>"", "gest_age"=>"", "gravidity"=>"", "parity"=>"", "group_b_strep"=>"", "blood_type"=>"", "comments"=>""}, "commit"=>"Create Room"}
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (4.0ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", ""], ["blood_type", ""], ["comments", ""], ["created_at", Tue, 02 Oct 2012 21:59:16 UTC +00:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", ""], ["last_exam", Tue, 02 Oct 2012 21:59:00 UTC +00:00], ["membrane", ""], ["nurse", ""], ["parity", nil], ["patient_first", ""], ["patient_last", ""], ["room_number", "LD&4"], ["station", ""], ["updated_at", Tue, 02 Oct 2012 21:59:16 UTC +00:00]]
+  [1m[35m (6.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/rooms/4
+Completed 302 Found in 17ms (ActiveRecord: 11.0ms)
+
+
+Started GET "/rooms/4" for 127.0.0.1 at 2012-10-02 15:59:16 -0600
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mRoom Load (1.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  Rendered rooms/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 15:59:16 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 15:59:16 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:16 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 15:59:16 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:17 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:17 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:17 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:17 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:17 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-02 15:59:19 -0600
+Processing by RoomsController#index as HTML
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" 
+  Rendered rooms/index.html.erb within layouts/application (41.0ms)
+Completed 200 OK in 95ms (Views: 93.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 15:59:19 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 15:59:19 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 15:59:19 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:19 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:19 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:19 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:19 -0600
+Served asset /rooms.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:19 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 15:59:19 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-02 15:59:19 -0600
+Served asset /unmh_logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-02 15:59:59 -0600
+Connecting to database specified by database.yml
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (1.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" [0m
+  Rendered rooms/index.html.erb within layouts/application (275.0ms)
+Completed 200 OK in 791ms (Views: 447.0ms | ActiveRecord: 51.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 16:00:02 -0600
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 16:00:03 -0600
+Served asset /rooms.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 16:00:03 -0600
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 16:00:03 -0600
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 16:00:03 -0600
+Served asset /jquery.purr.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 16:00:03 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 16:00:03 -0600
+Served asset /best_in_place.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 16:00:03 -0600
+Served asset /rooms.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 16:00:03 -0600
+Served asset /application.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-02 16:00:03 -0600
+Served asset /unmh_logo.gif - 304 Not Modified (3ms)
