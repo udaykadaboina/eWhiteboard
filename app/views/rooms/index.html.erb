@@ -18,9 +18,9 @@
     <th>Group b strep</th>
     <th>Blood type</th>
     <th>Comments</th>
+<!--    <th></th>
     <th></th>
-    <th></th>
-    <th></th>
+    <th></th> -->
   </tr>
 
 <% @rooms.each do |room| %>
@@ -41,13 +41,13 @@
     <td><%= best_in_place room, :group_b_strep, type: :select, :collection => Room::group_b_streps,:nil => "---" %></td>
     <td><%= best_in_place room, :blood_type,type: :select, :collection =>  Room::blood_types, :nil => "---" %></td>
     <td><%= best_in_place room, :comments, :nil => "---" %></td>
-    <td><%= link_to 'Show', room %></td>
+<!--    <td><%= link_to 'Show', room %></td>
     <td><%= link_to 'Edit', edit_room_path(room) %></td>
-    <td><%= link_to 'Destroy', room, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to 'Destroy', room, method: :delete, data: { confirm: 'Are you sure?' } %></td> -->
   </tr>
 <% end %>
 </table>
 
 <br />
 
-<%= link_to 'New Room', new_room_path %>
+<!-- <%= link_to 'New Room', new_room_path %> -->
