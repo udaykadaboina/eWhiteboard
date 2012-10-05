@@ -4933,3 +4933,1135 @@ Served asset /application.js - 304 Not Modified (15ms)
 
 Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-02 16:00:03 -0600
 Served asset /unmh_logo.gif - 304 Not Modified (3ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-02 16:35:22 -0600
+Connecting to database specified by database.yml
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" [0m
+  Rendered rooms/index.html.erb within layouts/application (174.0ms)
+Completed 200 OK in 652ms (Views: 296.0ms | ActiveRecord: 51.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 16:35:25 -0600
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 16:35:25 -0600
+Served asset /jquery.purr.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 16:35:25 -0600
+Served asset /rooms.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 16:35:25 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 16:35:25 -0600
+Served asset /jquery.js - 304 Not Modified (32ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 16:35:25 -0600
+Served asset /best_in_place.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 16:35:25 -0600
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 16:35:25 -0600
+Served asset /rooms.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 16:35:25 -0600
+Served asset /application.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-02 16:35:25 -0600
+Served asset /unmh_logo.gif - 304 Not Modified (2ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-02 16:41:19 -0600
+Processing by RoomsController#index as HTML
+  [1m[35mRoom Load (1.0ms)[0m  SELECT "rooms".* FROM "rooms" 
+  Rendered rooms/index.html.erb within layouts/application (64.0ms)
+Completed 200 OK in 87ms (Views: 83.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 16:41:19 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 16:41:19 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 16:41:19 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 16:41:19 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 16:41:19 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 16:41:19 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 16:41:19 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 16:41:19 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 16:41:19 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-02 16:41:19 -0600
+Served asset /unmh_logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-02 16:41:21 -0600
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (1.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" [0m
+  Rendered rooms/index.html.erb within layouts/application (57.0ms)
+Completed 200 OK in 77ms (Views: 75.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-02 16:41:21 -0600
+Served asset /jquery.purr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-02 16:41:21 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-02 16:41:21 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-02 16:41:21 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-02 16:41:21 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-02 16:41:21 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-02 16:41:21 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-02 16:41:21 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-02 16:41:21 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-02 16:41:21 -0600
+Served asset /unmh_logo.gif - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (22.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (13.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateRooms (20120916183947)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "rooms" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "room_number" varchar(255), "patient_first" varchar(255), "patient_last" varchar(255), "attending" varchar(255), "nurse" varchar(255), "dilation" integer, "effacement" integer, "station" varchar(255), "last_exam" datetime, "membrane" varchar(255), "gest_age" decimal, "gravidity" integer, "parity" integer, "group_b_strep" varchar(255), "blood_type" varchar(255), "comments" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120916183947')[0m
+  [1m[35m (4.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("rooms")[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (165.0ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D1"], ["station", nil], ["updated_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00]]
+  [1m[35m (6.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D2"], ["station", nil], ["updated_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D3"], ["station", nil], ["updated_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D4"], ["station", nil], ["updated_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00]]
+  [1m[36m (4.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D5"], ["station", nil], ["updated_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D6"], ["station", nil], ["updated_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D7"], ["station", nil], ["updated_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00]]
+  [1m[35m (6.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D8"], ["station", nil], ["updated_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D9"], ["station", nil], ["updated_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D10"], ["station", nil], ["updated_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D11"], ["station", nil], ["updated_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00]]
+  [1m[35m (4.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D12"], ["station", nil], ["updated_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00]]
+  [1m[36m (16.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D13"], ["station", nil], ["updated_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00]]
+  [1m[35m (6.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D14"], ["station", nil], ["updated_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00]]
+  [1m[36m (16.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D15"], ["station", nil], ["updated_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "R&R1"], ["station", nil], ["updated_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00]]
+  [1m[36m (21.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "R&R2"], ["station", nil], ["updated_at", Wed, 03 Oct 2012 18:47:53 MDT -06:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-03 18:49:51 -0600
+Connecting to database specified by database.yml
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" [0m
+  Rendered rooms/index.html.erb within layouts/application (274.0ms)
+Completed 200 OK in 934ms (Views: 615.0ms | ActiveRecord: 31.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-03 18:49:55 -0600
+Served asset /jquery.js - 200 OK (12ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-03 18:49:55 -0600
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-03 18:49:55 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-03 18:49:55 -0600
+Served asset /rooms.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-03 18:49:55 -0600
+Served asset /jquery.purr.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-03 18:49:55 -0600
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-03 18:49:55 -0600
+Served asset /best_in_place.js - 200 OK (4ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-03 18:49:55 -0600
+Served asset /rooms.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-03 18:49:55 -0600
+Served asset /application.js - 200 OK (8ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-03 18:49:55 -0600
+Served asset /unmh_logo.gif - 200 OK (3ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-03 18:50:09 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"patient_first"=>"Kelly"}, "authenticity_token"=>"ooiCZoyjpV4GMPWpODWJFRVXpAyG6WFV+gK+sXwk+tc=", "id"=>"1"}
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  UPDATE "rooms" SET "patient_first" = 'Kelly', "updated_at" = '2012-10-04 00:50:09.553787' WHERE "rooms"."id" = 1
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 105ms (ActiveRecord: 5.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-03 18:50:13 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"patient_last"=>"Clarkson"}, "authenticity_token"=>"ooiCZoyjpV4GMPWpODWJFRVXpAyG6WFV+gK+sXwk+tc=", "id"=>"1"}
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  UPDATE "rooms" SET "patient_last" = 'Clarkson', "updated_at" = '2012-10-04 00:50:13.621019' WHERE "rooms"."id" = 1
+  [1m[36m (9.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 14ms (ActiveRecord: 10.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-03 18:50:16 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"attending"=>"G. Kelly"}, "authenticity_token"=>"ooiCZoyjpV4GMPWpODWJFRVXpAyG6WFV+gK+sXwk+tc=", "id"=>"1"}
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  UPDATE "rooms" SET "attending" = 'G. Kelly', "updated_at" = '2012-10-04 00:50:16.661193' WHERE "rooms"."id" = 1
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 10ms (ActiveRecord: 6.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-03 18:50:19 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"nurse"=>"T.Jackson"}, "authenticity_token"=>"ooiCZoyjpV4GMPWpODWJFRVXpAyG6WFV+gK+sXwk+tc=", "id"=>"1"}
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  UPDATE "rooms" SET "nurse" = 'T.Jackson', "updated_at" = '2012-10-04 00:50:19.163336' WHERE "rooms"."id" = 1
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 12ms (ActiveRecord: 7.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-03 18:50:21 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"dilation"=>"3"}, "authenticity_token"=>"ooiCZoyjpV4GMPWpODWJFRVXpAyG6WFV+gK+sXwk+tc=", "id"=>"1"}
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  UPDATE "rooms" SET "dilation" = 3, "updated_at" = '2012-10-04 00:50:21.498470' WHERE "rooms"."id" = 1
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 9ms (ActiveRecord: 5.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-03 18:50:23 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"effacement"=>"30"}, "authenticity_token"=>"ooiCZoyjpV4GMPWpODWJFRVXpAyG6WFV+gK+sXwk+tc=", "id"=>"1"}
+  [1m[35mRoom Load (1.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  UPDATE "rooms" SET "effacement" = 30, "updated_at" = '2012-10-04 00:50:23.520586' WHERE "rooms"."id" = 1
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 12ms (ActiveRecord: 8.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-03 18:50:26 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"station"=>"-5"}, "authenticity_token"=>"ooiCZoyjpV4GMPWpODWJFRVXpAyG6WFV+gK+sXwk+tc=", "id"=>"1"}
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  UPDATE "rooms" SET "station" = '-5', "updated_at" = '2012-10-04 00:50:26.364748' WHERE "rooms"."id" = 1
+  [1m[36m (8.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 14ms (ActiveRecord: 9.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-03 18:50:36 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"last_exam"=>"10/02/2012 6pm"}, "authenticity_token"=>"ooiCZoyjpV4GMPWpODWJFRVXpAyG6WFV+gK+sXwk+tc=", "id"=>"1"}
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  UPDATE "rooms" SET "last_exam" = '2012-02-11 01:00:00.000000', "updated_at" = '2012-10-04 00:50:36.815346' WHERE "rooms"."id" = 1
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 15ms (ActiveRecord: 7.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-03 18:50:40 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"membrane"=>"Bulging"}, "authenticity_token"=>"ooiCZoyjpV4GMPWpODWJFRVXpAyG6WFV+gK+sXwk+tc=", "id"=>"1"}
+  [1m[35mRoom Load (1.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  UPDATE "rooms" SET "membrane" = 'Bulging', "updated_at" = '2012-10-04 00:50:40.917581' WHERE "rooms"."id" = 1
+  [1m[36m (3.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 9ms (ActiveRecord: 5.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-03 18:50:47 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"gest_age"=>"7.9"}, "authenticity_token"=>"ooiCZoyjpV4GMPWpODWJFRVXpAyG6WFV+gK+sXwk+tc=", "id"=>"1"}
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  UPDATE "rooms" SET "gest_age" = 7.9, "updated_at" = '2012-10-04 00:50:47.065932' WHERE "rooms"."id" = 1
+  [1m[36m (8.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 13ms (ActiveRecord: 9.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-03 18:50:49 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"gravidity"=>"4"}, "authenticity_token"=>"ooiCZoyjpV4GMPWpODWJFRVXpAyG6WFV+gK+sXwk+tc=", "id"=>"1"}
+  [1m[35mRoom Load (1.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  UPDATE "rooms" SET "gravidity" = 4, "updated_at" = '2012-10-04 00:50:49.863092' WHERE "rooms"."id" = 1
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 12ms (ActiveRecord: 8.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-03 18:50:52 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"parity"=>"2"}, "authenticity_token"=>"ooiCZoyjpV4GMPWpODWJFRVXpAyG6WFV+gK+sXwk+tc=", "id"=>"1"}
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  UPDATE "rooms" SET "parity" = 2, "updated_at" = '2012-10-04 00:50:52.067218' WHERE "rooms"."id" = 1
+  [1m[36m (4.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 11ms (ActiveRecord: 4.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-03 18:50:53 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"group_b_strep"=>"Negative"}, "authenticity_token"=>"ooiCZoyjpV4GMPWpODWJFRVXpAyG6WFV+gK+sXwk+tc=", "id"=>"1"}
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  UPDATE "rooms" SET "group_b_strep" = 'Negative', "updated_at" = '2012-10-04 00:50:53.460298' WHERE "rooms"."id" = 1
+  [1m[36m (7.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 12ms (ActiveRecord: 8.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-03 18:50:57 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"blood_type"=>"O+"}, "authenticity_token"=>"ooiCZoyjpV4GMPWpODWJFRVXpAyG6WFV+gK+sXwk+tc=", "id"=>"1"}
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  UPDATE "rooms" SET "blood_type" = 'O+', "updated_at" = '2012-10-04 00:50:57.267516' WHERE "rooms"."id" = 1
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 12ms (ActiveRecord: 6.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-03 18:51:01 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"comments"=>"hello comments"}, "authenticity_token"=>"ooiCZoyjpV4GMPWpODWJFRVXpAyG6WFV+gK+sXwk+tc=", "id"=>"1"}
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  UPDATE "rooms" SET "comments" = 'hello comments', "updated_at" = '2012-10-04 00:51:01.518759' WHERE "rooms"."id" = 1
+  [1m[36m (27.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 31ms (ActiveRecord: 28.0ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-03 18:51:07 -0600
+Processing by RoomsController#index as HTML
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" 
+  Rendered rooms/index.html.erb within layouts/application (135.0ms)
+Completed 200 OK in 152ms (Views: 149.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-03 18:51:07 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-03 18:51:07 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-03 18:51:07 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-03 18:51:07 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-03 18:51:07 -0600
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-03 18:51:07 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-03 18:51:07 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-03 18:51:07 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-03 18:51:07 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-03 18:51:08 -0600
+Served asset /unmh_logo.gif - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateRooms (20120916183947)
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (2.0ms)[0m  [1mDROP TABLE "rooms"[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120916183947'
+  [1m[36m (3.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateRooms (20120916183947)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "rooms" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "room_number" varchar(255), "patient_first" varchar(255), "patient_last" varchar(255), "attending" varchar(255), "nurse" varchar(255), "dilation" integer, "effacement" integer, "station" varchar(255), "last_exam" datetime, "membrane" varchar(255), "gest_age" decimal, "gravidity" integer, "parity" integer, "group_b_strep" varchar(255), "blood_type" varchar(255), "comments" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (1.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120916183947')[0m
+  [1m[35m (75.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("rooms")[0m
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-04 21:33:49 -0600
+Connecting to database specified by database.yml
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" [0m
+  Rendered rooms/index.html.erb within layouts/application (53.0ms)
+Completed 200 OK in 809ms (Views: 427.0ms | ActiveRecord: 27.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-04 21:33:53 -0600
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-04 21:33:53 -0600
+Served asset /rooms.css - 200 OK (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-04 21:33:53 -0600
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-04 21:33:53 -0600
+Served asset /jquery.js - 200 OK (31ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-04 21:33:53 -0600
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-04 21:33:53 -0600
+Served asset /best_in_place.js - 200 OK (20ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-04 21:33:53 -0600
+Served asset /jquery.purr.js - 200 OK (3ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-04 21:33:53 -0600
+Served asset /rooms.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-04 21:33:53 -0600
+Served asset /application.js - 200 OK (11ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-04 21:33:53 -0600
+Served asset /unmh_logo.gif - 200 OK (4ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (182.0ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D1"], ["station", nil], ["updated_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00]]
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D2"], ["station", nil], ["updated_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00]]
+  [1m[36m (4.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D3"], ["station", nil], ["updated_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00]]
+  [1m[35m (3.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D4"], ["station", nil], ["updated_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00]]
+  [1m[36m (4.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D5"], ["station", nil], ["updated_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00]]
+  [1m[35m (3.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D6"], ["station", nil], ["updated_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00]]
+  [1m[36m (3.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D7"], ["station", nil], ["updated_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00]]
+  [1m[35m (4.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D8"], ["station", nil], ["updated_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00]]
+  [1m[36m (25.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D9"], ["station", nil], ["updated_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00]]
+  [1m[35m (4.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D10"], ["station", nil], ["updated_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00]]
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D11"], ["station", nil], ["updated_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00]]
+  [1m[35m (7.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D12"], ["station", nil], ["updated_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00]]
+  [1m[36m (8.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D13"], ["station", nil], ["updated_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00]]
+  [1m[35m (8.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D14"], ["station", nil], ["updated_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00]]
+  [1m[36m (4.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D15"], ["station", nil], ["updated_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00]]
+  [1m[35m (4.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "R&R1"], ["station", nil], ["updated_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "R&R2"], ["station", nil], ["updated_at", Thu, 04 Oct 2012 21:35:27 MDT -06:00]]
+  [1m[35m (3.0ms)[0m  commit transaction
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-04 21:36:13 -0600
+Connecting to database specified by database.yml
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (1.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" [0m
+  Rendered rooms/index.html.erb within layouts/application (284.0ms)
+Completed 200 OK in 721ms (Views: 402.0ms | ActiveRecord: 27.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-04 21:36:17 -0600
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-04 21:36:17 -0600
+Served asset /rooms.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-04 21:36:17 -0600
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-04 21:36:17 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-04 21:36:17 -0600
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-04 21:36:17 -0600
+Served asset /jquery.purr.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-04 21:36:17 -0600
+Served asset /best_in_place.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-04 21:36:17 -0600
+Served asset /application.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-04 21:36:17 -0600
+Served asset /rooms.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-04 21:36:17 -0600
+Served asset /unmh_logo.gif - 304 Not Modified (1ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-04 21:36:25 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"patient_first"=>""}, "authenticity_token"=>"D/fpcCf81agabFdY6QA34S9eqBvifA7flLsq01i5ZMw=", "id"=>"1"}
+  [1m[35mRoom Load (1.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  UPDATE "rooms" SET "patient_first" = '', "updated_at" = '2012-10-05 03:36:25.732047' WHERE "rooms"."id" = 1
+  [1m[36m (4.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 106ms (ActiveRecord: 6.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-04 21:36:28 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"membrane"=>"Intact"}, "authenticity_token"=>"D/fpcCf81agabFdY6QA34S9eqBvifA7flLsq01i5ZMw=", "id"=>"1"}
+  [1m[35mRoom Load (1.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  UPDATE "rooms" SET "membrane" = 'Intact', "updated_at" = '2012-10-05 03:36:28.573210' WHERE "rooms"."id" = 1
+  [1m[36m (8.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 16ms (ActiveRecord: 10.0ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-04 21:36:57 -0600
+Processing by RoomsController#index as HTML
+  [1m[35mRoom Load (1.0ms)[0m  SELECT "rooms".* FROM "rooms" 
+  Rendered rooms/index.html.erb within layouts/application (137.0ms)
+Completed 200 OK in 154ms (Views: 150.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-04 21:36:57 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-04 21:36:57 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-04 21:36:57 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-04 21:36:57 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-04 21:36:57 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-04 21:36:57 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-04 21:36:57 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-04 21:36:57 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-04 21:36:57 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-04 21:36:58 -0600
+Served asset /unmh_logo.gif - 304 Not Modified (0ms)
+
+
+Started PUT "/rooms/2" for 127.0.0.1 at 2012-10-04 21:37:02 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"membrane"=>"Bulging"}, "authenticity_token"=>"D/fpcCf81agabFdY6QA34S9eqBvifA7flLsq01i5ZMw=", "id"=>"2"}
+  [1m[36mRoom Load (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mUPDATE "rooms" SET "membrane" = 'Bulging', "updated_at" = '2012-10-05 03:37:02.156131' WHERE "rooms"."id" = 2[0m
+  [1m[35m (4.0ms)[0m  commit transaction
+Completed 204 No Content in 9ms (ActiveRecord: 5.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-04 21:37:17 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"last_exam"=>"10/04/2012 6PM"}, "authenticity_token"=>"D/fpcCf81agabFdY6QA34S9eqBvifA7flLsq01i5ZMw=", "id"=>"1"}
+  [1m[36mRoom Load (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mUPDATE "rooms" SET "last_exam" = '2012-04-11 00:00:00.000000', "updated_at" = '2012-10-05 03:37:17.654017' WHERE "rooms"."id" = 1[0m
+  [1m[35m (5.0ms)[0m  commit transaction
+Completed 204 No Content in 16ms (ActiveRecord: 6.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-04 21:37:21 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"station"=>"-5"}, "authenticity_token"=>"D/fpcCf81agabFdY6QA34S9eqBvifA7flLsq01i5ZMw=", "id"=>"1"}
+  [1m[36mRoom Load (1.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mUPDATE "rooms" SET "station" = '-5', "updated_at" = '2012-10-05 03:37:21.690248' WHERE "rooms"."id" = 1[0m
+  [1m[35m (27.0ms)[0m  commit transaction
+Completed 204 No Content in 33ms (ActiveRecord: 29.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-04 21:37:23 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"effacement"=>"0"}, "authenticity_token"=>"D/fpcCf81agabFdY6QA34S9eqBvifA7flLsq01i5ZMw=", "id"=>"1"}
+  [1m[36mRoom Load (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mUPDATE "rooms" SET "effacement" = 0, "updated_at" = '2012-10-05 03:37:23.044325' WHERE "rooms"."id" = 1[0m
+  [1m[35m (6.0ms)[0m  commit transaction
+Completed 204 No Content in 12ms (ActiveRecord: 7.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-04 21:37:24 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"dilation"=>"0"}, "authenticity_token"=>"D/fpcCf81agabFdY6QA34S9eqBvifA7flLsq01i5ZMw=", "id"=>"1"}
+  [1m[36mRoom Load (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mUPDATE "rooms" SET "dilation" = 0, "updated_at" = '2012-10-05 03:37:24.500409' WHERE "rooms"."id" = 1[0m
+  [1m[35m (9.0ms)[0m  commit transaction
+Completed 204 No Content in 14ms (ActiveRecord: 11.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-04 21:37:26 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"nurse"=>"M. Smith"}, "authenticity_token"=>"D/fpcCf81agabFdY6QA34S9eqBvifA7flLsq01i5ZMw=", "id"=>"1"}
+  [1m[36mRoom Load (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mUPDATE "rooms" SET "nurse" = 'M. Smith', "updated_at" = '2012-10-05 03:37:26.015495' WHERE "rooms"."id" = 1[0m
+  [1m[35m (12.0ms)[0m  commit transaction
+Completed 204 No Content in 18ms (ActiveRecord: 13.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-04 21:37:27 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"attending"=>"F. Johnson"}, "authenticity_token"=>"D/fpcCf81agabFdY6QA34S9eqBvifA7flLsq01i5ZMw=", "id"=>"1"}
+  [1m[36mRoom Load (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mUPDATE "rooms" SET "attending" = 'F. Johnson', "updated_at" = '2012-10-05 03:37:27.117558' WHERE "rooms"."id" = 1[0m
+  [1m[35m (19.0ms)[0m  commit transaction
+Completed 204 No Content in 24ms (ActiveRecord: 20.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-04 21:37:33 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"patient_last"=>"my lastname"}, "authenticity_token"=>"D/fpcCf81agabFdY6QA34S9eqBvifA7flLsq01i5ZMw=", "id"=>"1"}
+  [1m[36mRoom Load (1.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mUPDATE "rooms" SET "patient_last" = 'my lastname', "updated_at" = '2012-10-05 03:37:33.996952' WHERE "rooms"."id" = 1[0m
+  [1m[35m (4.0ms)[0m  commit transaction
+Completed 204 No Content in 9ms (ActiveRecord: 6.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-04 21:37:39 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"patient_first"=>"firstname"}, "authenticity_token"=>"D/fpcCf81agabFdY6QA34S9eqBvifA7flLsq01i5ZMw=", "id"=>"1"}
+  [1m[36mRoom Load (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (2.0ms)[0m  [1mUPDATE "rooms" SET "patient_first" = 'firstname', "updated_at" = '2012-10-05 03:37:39.226251' WHERE "rooms"."id" = 1[0m
+  [1m[35m (7.0ms)[0m  commit transaction
+Completed 204 No Content in 12ms (ActiveRecord: 9.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-04 21:37:45 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"gest_age"=>"9.0"}, "authenticity_token"=>"D/fpcCf81agabFdY6QA34S9eqBvifA7flLsq01i5ZMw=", "id"=>"1"}
+  [1m[36mRoom Load (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36m (2.0ms)[0m  [1mUPDATE "rooms" SET "gest_age" = 9.0, "updated_at" = '2012-10-05 03:37:45.062585' WHERE "rooms"."id" = 1[0m
+  [1m[35m (11.0ms)[0m  commit transaction
+Completed 204 No Content in 18ms (ActiveRecord: 14.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-04 21:37:48 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"gravidity"=>"1"}, "authenticity_token"=>"D/fpcCf81agabFdY6QA34S9eqBvifA7flLsq01i5ZMw=", "id"=>"1"}
+  [1m[36mRoom Load (1.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mUPDATE "rooms" SET "gravidity" = 1, "updated_at" = '2012-10-05 03:37:48.075757' WHERE "rooms"."id" = 1[0m
+  [1m[35m (5.0ms)[0m  commit transaction
+Completed 204 No Content in 12ms (ActiveRecord: 7.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-04 21:37:49 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"parity"=>"0"}, "authenticity_token"=>"D/fpcCf81agabFdY6QA34S9eqBvifA7flLsq01i5ZMw=", "id"=>"1"}
+  [1m[36mRoom Load (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mUPDATE "rooms" SET "parity" = 0, "updated_at" = '2012-10-05 03:37:49.369831' WHERE "rooms"."id" = 1[0m
+  [1m[35m (7.0ms)[0m  commit transaction
+Completed 204 No Content in 14ms (ActiveRecord: 8.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-04 21:37:51 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"group_b_strep"=>"Negative"}, "authenticity_token"=>"D/fpcCf81agabFdY6QA34S9eqBvifA7flLsq01i5ZMw=", "id"=>"1"}
+  [1m[36mRoom Load (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mUPDATE "rooms" SET "group_b_strep" = 'Negative', "updated_at" = '2012-10-05 03:37:51.451950' WHERE "rooms"."id" = 1[0m
+  [1m[35m (5.0ms)[0m  commit transaction
+Completed 204 No Content in 9ms (ActiveRecord: 5.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-04 21:37:52 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"blood_type"=>"O+"}, "authenticity_token"=>"D/fpcCf81agabFdY6QA34S9eqBvifA7flLsq01i5ZMw=", "id"=>"1"}
+  [1m[36mRoom Load (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36m (2.0ms)[0m  [1mUPDATE "rooms" SET "blood_type" = 'O+', "updated_at" = '2012-10-05 03:37:52.403005' WHERE "rooms"."id" = 1[0m
+  [1m[35m (9.0ms)[0m  commit transaction
+Completed 204 No Content in 16ms (ActiveRecord: 12.0ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-04 21:37:56 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"comments"=>"Hello comment"}, "authenticity_token"=>"D/fpcCf81agabFdY6QA34S9eqBvifA7flLsq01i5ZMw=", "id"=>"1"}
+  [1m[36mRoom Load (1.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mUPDATE "rooms" SET "comments" = 'Hello comment', "updated_at" = '2012-10-05 03:37:56.144219' WHERE "rooms"."id" = 1[0m
+  [1m[35m (8.0ms)[0m  commit transaction
+Completed 204 No Content in 13ms (ActiveRecord: 10.0ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-04 21:37:59 -0600
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (1.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" [0m
+  Rendered rooms/index.html.erb within layouts/application (142.0ms)
+Completed 200 OK in 159ms (Views: 156.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-04 21:37:59 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-04 21:37:59 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-04 21:37:59 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-04 21:37:59 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-04 21:37:59 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-04 21:37:59 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-04 21:37:59 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-04 21:37:59 -0600
+Served asset /rooms.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-04 21:37:59 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-04 21:38:00 -0600
+Served asset /unmh_logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/rooms/new" for 127.0.0.1 at 2012-10-04 21:38:16 -0600
+Processing by RoomsController#new as HTML
+  Rendered rooms/_form.html.erb (167.0ms)
+  Rendered rooms/new.html.erb within layouts/application (283.0ms)
+Completed 200 OK in 298ms (Views: 297.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-04 21:38:17 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-04 21:38:17 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-04 21:38:17 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-04 21:38:17 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-04 21:38:17 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-04 21:38:17 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-04 21:38:17 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-04 21:38:17 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-04 21:38:17 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-04 21:38:51 -0600
+Processing by RoomsController#index as HTML
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" 
+  Rendered rooms/index.html.erb within layouts/application (122.0ms)
+Completed 200 OK in 169ms (Views: 166.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-04 21:38:51 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-04 21:38:51 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-04 21:38:51 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-04 21:38:51 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-04 21:38:51 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-04 21:38:51 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-04 21:38:51 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-04 21:38:51 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-04 21:38:51 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-04 21:38:52 -0600
+Served asset /unmh_logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-04 21:51:19 -0600
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (1.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" [0m
+  Rendered rooms/index.html.erb within layouts/application (141.0ms)
+Completed 200 OK in 156ms (Views: 153.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-04 21:51:19 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-04 21:51:19 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-04 21:51:20 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-04 21:51:20 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-04 21:51:20 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-04 21:51:20 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-04 21:51:20 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-04 21:51:20 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-04 21:51:20 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-04 21:51:20 -0600
+Served asset /unmh_logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-04 21:51:20 -0600
+Processing by RoomsController#index as HTML
+  [1m[35mRoom Load (1.0ms)[0m  SELECT "rooms".* FROM "rooms" 
+  Rendered rooms/index.html.erb within layouts/application (141.0ms)
+Completed 200 OK in 156ms (Views: 153.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-04 21:51:21 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-04 21:51:21 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-04 21:51:21 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-04 21:51:21 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-04 21:51:21 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-04 21:51:21 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-04 21:51:21 -0600
+Served asset /rooms.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-04 21:51:21 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-04 21:51:21 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-04 21:51:21 -0600
+Served asset /unmh_logo.gif - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateRooms (20120916183947)
+  [1m[35m (1.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("rooms")
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-04 21:56:09 -0600
+Connecting to database specified by database.yml
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (1.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" [0m
+  Rendered rooms/index.html.erb within layouts/application (264.0ms)
+Completed 200 OK in 719ms (Views: 382.0ms | ActiveRecord: 28.0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-04 21:56:12 -0600
+Served asset /rooms.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-04 21:56:12 -0600
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-04 21:56:12 -0600
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-04 21:56:12 -0600
+Served asset /jquery.purr.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-04 21:56:12 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-04 21:56:12 -0600
+Served asset /best_in_place.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-04 21:56:12 -0600
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-04 21:56:12 -0600
+Served asset /rooms.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-04 21:56:12 -0600
+Served asset /unmh_logo.gif - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-04 21:56:12 -0600
+Served asset /application.js - 304 Not Modified (10ms)
