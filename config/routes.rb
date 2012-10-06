@@ -1,4 +1,5 @@
 ElectronicWhiteboardTwo::Application.routes.draw do
+  root :to => "rooms#index"
   resources :rooms
 
   # The priority is based upon order of creation:

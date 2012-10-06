@@ -6065,3 +6065,51 @@ Served asset /unmh_logo.gif - 304 Not Modified (2ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-04 21:56:12 -0600
 Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-05 21:01:20 -0600
+Connecting to database specified by database.yml
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (0.0ms)[0m  [1mSELECT "rooms".* FROM "rooms" [0m
+  Rendered rooms/index.html.erb within layouts/application (444.0ms)
+Completed 200 OK in 1191ms (Views: 775.0ms | ActiveRecord: 30.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-05 21:01:25 -0600
+Served asset /application.css - 200 OK (7ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-05 21:01:25 -0600
+Served asset /rooms.css - 200 OK (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-05 21:01:25 -0600
+Served asset /scaffolds.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-05 21:01:25 -0600
+Served asset /jquery.js - 200 OK (34ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-05 21:01:25 -0600
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-05 21:01:25 -0600
+Served asset /best_in_place.js - 200 OK (23ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-05 21:01:25 -0600
+Served asset /jquery.purr.js - 200 OK (3ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-05 21:01:25 -0600
+Served asset /rooms.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-05 21:01:25 -0600
+Served asset /application.js - 200 OK (9ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-05 21:01:25 -0600
+Served asset /unmh_logo.gif - 200 OK (3ms)
