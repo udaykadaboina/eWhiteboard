@@ -23,3 +23,5 @@ Room.create(room_number: "L&D14", index_number: 14)
 Room.create(room_number: "L&D15", index_number: 15)
 Room.create(room_number: "R&R1", index_number: 16)
 Room.create(room_number: "R&R2", index_number: 17)
+
+
