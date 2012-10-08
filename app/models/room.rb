@@ -1,6 +1,6 @@
 class Room < ActiveRecord::Base
 
-	attr_accessible :attending, :blood_type, :comments, :dilation, :effacement, :gest_age, :gravidity, :group_b_strep, :last_exam, :membrane, :nurse, :parity, :patient_first, :patient_last, :room_number, :station
+	attr_accessible :attending, :blood_type, :comments, :dilation, :effacement, :gest_age, :gravidity, :group_b_strep, :last_exam, :membrane, :nurse, :parity, :patient_first, :patient_last, :room_number, :station, :index_number
 
 	def self.anesthesia_interviews
     [["None","None"], ["Epidural","Epidural"], ["Intrachecal","Intrachecal"], ["Waiting","Waiting"]].freeze

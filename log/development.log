@@ -6113,3 +6113,391 @@ Served asset /application.js - 200 OK (9ms)
 
 Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-05 21:01:25 -0600
 Served asset /unmh_logo.gif - 200 OK (3ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-10-08 13:08:34 -0600
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (2ms)
+
+
+Started GET "/rooms" for 127.0.0.1 at 2012-10-08 13:08:38 -0600
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (1.4ms)[0m  [1mSELECT "rooms".* FROM "rooms" [0m
+  Rendered rooms/index.html.erb within layouts/application (207.1ms)
+Compiled rooms.css  (49ms)  (pid 6348)
+Compiled scaffolds.css  (13ms)  (pid 6348)
+Compiled application.css  (1ms)  (pid 6348)
+Compiled rooms.js  (496ms)  (pid 6348)
+Compiled application.js  (508ms)  (pid 6348)
+Completed 200 OK in 983ms (Views: 869.5ms | ActiveRecord: 31.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-08 13:08:39 -0600
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-08 13:08:39 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-08 13:08:39 -0600
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-08 13:08:39 -0600
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-08 13:08:39 -0600
+Served asset /rooms.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-08 13:08:39 -0600
+Served asset /jquery.purr.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-08 13:08:39 -0600
+Served asset /best_in_place.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-08 13:08:39 -0600
+Served asset /application.js - 304 Not Modified (45ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-08 13:08:39 -0600
+Served asset /rooms.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-08 13:08:39 -0600
+Served asset /unmh_logo.gif - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-10-08 13:11:47 -0600
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-10-08 13:12:45 -0600
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-10-08 13:13:12 -0600
+Served asset /rails.png - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-08 13:14:06 -0600
+Connecting to database specified by database.yml
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (0.3ms)[0m  [1mSELECT "rooms".* FROM "rooms" [0m
+  Rendered rooms/index.html.erb within layouts/application (171.0ms)
+Completed 200 OK in 310ms (Views: 228.1ms | ActiveRecord: 18.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-08 13:14:07 -0600
+Served asset /application.css - 200 OK (24ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-08 13:14:07 -0600
+Served asset /jquery.purr.js - 200 OK (9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-08 13:14:07 -0600
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-08 13:14:07 -0600
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-08 13:14:07 -0600
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-08 13:14:07 -0600
+Served asset /rooms.css - 200 OK (1ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-08 13:14:07 -0600
+Served asset /best_in_place.js - 200 OK (3ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-08 13:14:07 -0600
+Served asset /rooms.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-08 13:14:07 -0600
+Served asset /application.js - 200 OK (60ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-08 13:14:07 -0600
+Served asset /unmh_logo.gif - 200 OK (1ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (33.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (10.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateRooms (20120916183947)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.1ms)[0m  [1mCREATE TABLE "rooms" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "room_number" varchar(255), "patient_first" varchar(255), "patient_last" varchar(255), "attending" varchar(255), "nurse" varchar(255), "dilation" integer, "effacement" integer, "station" varchar(255), "last_exam" datetime, "membrane" varchar(255), "gest_age" decimal, "gravidity" integer, "parity" integer, "group_b_strep" varchar(255), "blood_type" varchar(255), "comments" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.5ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120916183947')
+  [1m[36m (13.9ms)[0m  [1mcommit transaction[0m
+Migrating to AddIndexNumberToRooms (20121008191457)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "rooms" ADD "index_number" integer[0m
+  [1m[35m (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20121008191457')
+  [1m[36m (22.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("rooms")
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (19.7ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 1], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D1"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00]]
+  [1m[35m (14.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 2], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D2"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00]]
+  [1m[36m (11.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 3], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D3"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00]]
+  [1m[35m (11.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 4], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D4"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00]]
+  [1m[36m (11.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 5], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D5"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00]]
+  [1m[35m (11.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 6], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D6"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00]]
+  [1m[36m (10.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 7], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D7"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00]]
+  [1m[35m (13.2ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 8], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D8"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00]]
+  [1m[36m (12.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 9], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D9"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00]]
+  [1m[35m (12.3ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.7ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 10], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D10"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00]]
+  [1m[36m (12.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (1.7ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 11], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D11"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00]]
+  [1m[35m (13.5ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 12], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D12"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00]]
+  [1m[36m (12.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 13], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D13"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00]]
+  [1m[35m (11.4ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.7ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 14], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D14"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00]]
+  [1m[36m (12.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 15], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D15"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00]]
+  [1m[35m (14.4ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 16], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "R&R1"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00]]
+  [1m[36m (14.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 17], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "R&R2"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:20:52 MDT -06:00]]
+  [1m[35m (13.8ms)[0m  commit transaction
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-08 13:21:02 -0600
+Connecting to database specified by database.yml
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (0.4ms)[0m  [1mSELECT "rooms".* FROM "rooms" [0m
+  Rendered rooms/index.html.erb within layouts/application (164.0ms)
+Completed 200 OK in 306ms (Views: 223.2ms | ActiveRecord: 19.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-08 13:21:03 -0600
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-08 13:21:03 -0600
+Served asset /jquery.purr.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-08 13:21:03 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-08 13:21:03 -0600
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-08 13:21:03 -0600
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-08 13:21:03 -0600
+Served asset /rooms.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-08 13:21:03 -0600
+Served asset /best_in_place.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-08 13:21:03 -0600
+Served asset /rooms.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-08 13:21:03 -0600
+Served asset /application.js - 304 Not Modified (66ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-08 13:21:03 -0600
+Served asset /unmh_logo.gif - 304 Not Modified (4ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-08 13:21:11 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"gest_age"=>""}, "authenticity_token"=>"m8T2g2+OBXe43CDDXpKH7sXanA3SZxuOOgMrfkRKxOU=", "id"=>"1"}
+  [1m[35mRoom Load (0.3ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  commit transaction
+Completed 204 No Content in 14ms (ActiveRecord: 0.7ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-08 13:21:13 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"membrane"=>"Intact"}, "authenticity_token"=>"m8T2g2+OBXe43CDDXpKH7sXanA3SZxuOOgMrfkRKxOU=", "id"=>"1"}
+  [1m[36mRoom Load (0.1ms)[0m  [1mSELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mUPDATE "rooms" SET "membrane" = 'Intact', "updated_at" = '2012-10-08 19:21:13.931483' WHERE "rooms"."id" = 1[0m
+  [1m[35m (29.7ms)[0m  commit transaction
+Completed 204 No Content in 48ms (ActiveRecord: 30.3ms)
+
+
+Started PUT "/rooms/1" for 127.0.0.1 at 2012-10-08 13:21:20 -0600
+Processing by RoomsController#update as JSON
+  Parameters: {"room"=>{"effacement"=>"0"}, "authenticity_token"=>"m8T2g2+OBXe43CDDXpKH7sXanA3SZxuOOgMrfkRKxOU=", "id"=>"1"}
+  [1m[36mRoom Load (0.1ms)[0m  [1mSELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (5.1ms)[0m  [1mUPDATE "rooms" SET "effacement" = 0, "updated_at" = '2012-10-08 19:21:20.100098' WHERE "rooms"."id" = 1[0m
+  [1m[35m (22.5ms)[0m  commit transaction
+Completed 204 No Content in 30ms (ActiveRecord: 27.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-08 13:21:22 -0600
+Processing by RoomsController#index as HTML
+  [1m[36mRoom Load (0.3ms)[0m  [1mSELECT "rooms".* FROM "rooms" [0m
+  Rendered rooms/index.html.erb within layouts/application (143.2ms)
+Completed 200 OK in 158ms (Views: 156.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-08 13:21:22 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-08 13:21:22 -0600
+Served asset /jquery.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2012-10-08 13:21:22 -0600
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-08 13:21:22 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2012-10-08 13:21:22 -0600
+Served asset /best_in_place.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2012-10-08 13:21:22 -0600
+Served asset /jquery.purr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-08 13:21:22 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2012-10-08 13:21:22 -0600
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-08 13:21:22 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/unmh_logo.gif" for 127.0.0.1 at 2012-10-08 13:21:22 -0600
+Served asset /unmh_logo.gif - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (27.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (12.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateRooms (20120916183947)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.9ms)[0m  [1mCREATE TABLE "rooms" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "room_number" varchar(255), "patient_first" varchar(255), "patient_last" varchar(255), "attending" varchar(255), "nurse" varchar(255), "dilation" integer, "effacement" integer, "station" varchar(255), "last_exam" datetime, "membrane" varchar(255), "gest_age" decimal, "gravidity" integer, "parity" integer, "group_b_strep" varchar(255), "blood_type" varchar(255), "comments" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120916183947')
+  [1m[36m (16.9ms)[0m  [1mcommit transaction[0m
+Migrating to AddIndexNumberToRooms (20121008191457)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (1.2ms)[0m  [1mALTER TABLE "rooms" ADD "index_number" integer[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20121008191457')
+  [1m[36m (9.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("rooms")
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (22.8ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 1], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D1"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00]]
+  [1m[35m (41.2ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.1ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 2], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D2"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00]]
+  [1m[36m (11.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (1.9ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 3], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D3"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00]]
+  [1m[35m (12.6ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 4], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D4"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00]]
+  [1m[36m (14.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 5], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D5"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00]]
+  [1m[35m (11.8ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 6], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D6"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00]]
+  [1m[36m (12.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 7], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D7"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00]]
+  [1m[35m (12.8ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 8], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D8"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00]]
+  [1m[36m (13.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (1.8ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 9], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D9"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00]]
+  [1m[35m (13.2ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 10], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D10"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00]]
+  [1m[36m (14.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 11], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D11"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00]]
+  [1m[35m (13.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 12], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D12"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00]]
+  [1m[36m (11.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 13], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D13"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00]]
+  [1m[35m (13.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 14], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D14"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00]]
+  [1m[36m (14.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 15], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "L&D15"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00]]
+  [1m[35m (16.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 16], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "R&R1"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00]]
+  [1m[36m (13.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "rooms" ("attending", "blood_type", "comments", "created_at", "dilation", "effacement", "gest_age", "gravidity", "group_b_strep", "index_number", "last_exam", "membrane", "nurse", "parity", "patient_first", "patient_last", "room_number", "station", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attending", nil], ["blood_type", nil], ["comments", nil], ["created_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00], ["dilation", nil], ["effacement", nil], ["gest_age", nil], ["gravidity", nil], ["group_b_strep", nil], ["index_number", 17], ["last_exam", nil], ["membrane", nil], ["nurse", nil], ["parity", nil], ["patient_first", nil], ["patient_last", nil], ["room_number", "R&R2"], ["station", nil], ["updated_at", Mon, 08 Oct 2012 13:21:43 MDT -06:00]]
+  [1m[35m (12.1ms)[0m  commit transaction
