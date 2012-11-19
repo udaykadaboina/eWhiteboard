@@ -1,4 +1,6 @@
 ElectronicWhiteboardTwo::Application.routes.draw do
+  resources :patients
+
   root :to => "rooms#index"
   resources :rooms
 

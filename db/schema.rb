@@ -11,7 +11,24 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121008191457) do
+ActiveRecord::Schema.define(:version => 20121118225332) do
+
+  create_table "patients", :force => true do |t|
+    t.string   "patient_first"
+    t.string   "patient_lastn"
+    t.integer  "dilation"
+    t.integer  "effacement"
+    t.string   "station"
+    t.datetime "last_exam"
+    t.string   "membrane"
+    t.decimal  "gest_age"
+    t.integer  "gravidity"
+    t.integer  "parity"
+    t.string   "group_b_strep"
+    t.string   "blood_type"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+  end
 
   create_table "rooms", :force => true do |t|
     t.string   "room_number"
@@ -30,9 +47,11 @@ ActiveRecord::Schema.define(:version => 20121008191457) do
     t.string   "group_b_strep"
     t.string   "blood_type"
     t.text     "comments"
-    t.datetime "created_at",    :null => false
-    t.datetime "updated_at",    :null => false
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
     t.integer  "index_number"
+    t.string   "room_occupied"
+    t.integer  "body_mass_index"
   end
 
 end

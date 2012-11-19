@@ -1,9 +1,7 @@
-class Room < ActiveRecord::Base
-
-	attr_accessible :attending, :blood_type, :body_mass_index, :comments, :dilation, :effacement, :gest_age, :gravidity, :group_b_strep, :last_exam, :membrane, :nurse, :parity, :patient_first, :patient_last, :room_number, :room_occupied, :station, :index_number
-	has_one :patient
-	#has_one :nurse
-	#has_one :attending
+class Patient < ActiveRecord::Base
+  attr_accessible :attending, :blood_type, :body_mass_index, :comments, :dilation, :effacement, :gest_age, :gravidity, :group_b_strep, :last_exam, :membrane, :nurse, :parity, :patient_first, :patient_last, :room_number, :room_occupied, :station, :index_number
+	
+	belongs_to :room
 	
 	def self.anesthesia_interviews
     [["None","None"], ["Epidural","Epidural"], ["Intrachecal","Intrachecal"], ["Waiting","Waiting"]].freeze
@@ -48,5 +46,4 @@ class Room < ActiveRecord::Base
 	def self.parities
 		[[0,"0"], [1,"1"], [2,"2"], [3,"3"], [4,"4"], [5,"5"], [6,"6"], [7,"7"], [8,"8"], [9,"9"], [10,"10"]].freeze
 	end
-
 end

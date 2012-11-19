@@ -2,21 +2,21 @@
 
 <table>
   <tr>
-    <th>Room number</th>
-    <th>Patient first</th>
-    <th>Patient last</th>
+    <th>Room Number</th>
+    <th>First Name</th>
+    <th>Last Name</th>
     <th>Attending</th>
     <th>Nurse</th>
-    <th>Dilation</th>
-    <th>Effacement</th>
-    <th>Station</th>
-    <th>Last exam</th>
-    <th>Membrane</th>
-    <th>Gest age</th>
-    <th>Gravidity</th>
-    <th>Parity</th>
-    <th>Group b strep</th>
-    <th>Blood type</th>
+    <th>Dil</th>
+    <th>Eff</th>
+    <th>Sta</th>
+    <th>Exam</th>
+    <th>Mem</th>
+    <th>EGA</th>
+    <th>G</th>
+    <th>P</th>
+    <th>GBS</th>
+    <th>BT</th>
     <th>Comments</th>
 <!--    <th></th>
     <th></th>
@@ -25,7 +25,8 @@
 <% @rooms.sort! { |a,b| a.index_number <=> b.index_number} %>
 <% @rooms.each do |room| %>
   <tr>
-    <td><%= best_in_place room, :room_number, :nil => "-----" %></td>
+    <!-- <td><%= best_in_place room, :room_number, :nil => "-----" %></td> -->
+    <td><%= link_to room.room_number, new_patient_path(:param1 => room.index_number) %></td>
     <td><%= best_in_place room, :patient_first, :nil => "-----" %></td>
     <td><%= best_in_place room, :patient_last, :nil => "-----" %></td>
     <td><%= best_in_place room, :attending, type: :select, :collection => Room::attendings, :nil => "-----" %></td>
